@@ -1,0 +1,85 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+header {
+    width: 100%;
+    background-color: lemonchiffon;
+    position: fixed;
+    z-index: 12;
+}
+header nav {
+    width: 1200px;
+    padding: 30px 20px 10px 5px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+.menu li a{
+    display:inline-block;
+    text-decoration: none;
+    font-size: 20px;
+    color: black;
+}
+.menu li{
+    float: left;
+    margin-left: 20px;
+    list-style: none;
+}
+.wrapp-poster{
+    width: 100%;
+    height: 628px;
+    background-image: url(bilde1.jpg);
+    background-repeat: no-repeat;
+    background-position: left, top;
+    background-size: cover;
+    align-items: center;
+    display: flex;
+}
+#hjem{
+    padding-left: 500px;
+    padding-bottom: 320px;
+    font-size: 30px;
+}
+#hjem h1{
+    font-family: 'Kanit', sans-serif;
+    color: whitesmoke;
+    font-stretch: extra-expanded;
+}
+#hjem h2{
+    font-family: 'Playfair Display', serif;
+    color: whitesmoke;
+    font-stretch: extra-expanded;
+}
+#VaarIde, #vedlikehold{
+    background-color: #F6A8B1;
+    width: 100%;
+    display: inline-block;
+}
+#VaarIde img, #vedlikehold img{
+    width: 50%;
+    float: right;
+    }
+#VaarIde div, #vedlikehold div{
+    width: 40%;
+    float: left;
+    padding-left: 70px;
+    padding-right: 80px;
+    padding-top: 50px;
+}
+#Installasjon, #KontaktOss{
+    background-color: #92E8A6;
+    width: 100%;
+    display: inline-block;
+}
+#Installasjon img, #KontaktOss img{
+     width: 50%;
+    float: left;
+    }
+#Installasjon div, #KontaktOss div{
+   width: 40%;
+    float: right;
+    padding-left: 70px;
+    padding-right: 80px;
+    padding-top: 50px;
+}
